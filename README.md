@@ -1,7 +1,9 @@
+Personal Changes:
 --NOTE: IF faced with "frame didnt arrive in 5 seconds realsense" or USB3 issues update the firmware.
  Update the firmware following the step from(https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)
  and downloading the firmware from(https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
 
+Changed the camera namespace to rsd_camera for resolving conflict in tarrot_mapping
 
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series and the SR300) with ROS.
