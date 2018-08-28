@@ -216,7 +216,7 @@ Processing enabled by this node:
 
 
 <include file="$(find costmap_2d)/launch/tarot.launch"/>
-
+<include file="$(find realsense2_camera)/launch/realsense_frame.launch"/>
 
 
 
