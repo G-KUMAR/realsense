@@ -1,0 +1,12 @@
+<!-- to publish the transformation from camera to realsense when mounted above the camera-->
+<launch>
+  <arg name="realsense_frame_id" default="camera_color_optical_frame" />
+  <arg name="camera0_frame_id" default="camera0" />
+
+  <node pkg="tf" type="static_transform_publisher" name="realsense_to_camera0"
+        args="0.0 -0.025 -0.01 0.0 0.0 0.0 1.0 $(arg camera0_frame_id) $(arg realsense_frame_id) 10" >
+  </node>
+
+
+</launch>
+
