@@ -3,8 +3,8 @@ Few Extra Steps:
 https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
 
 2. To install librealsense2 from source:
-a. Download the required version form(I used 2.15) : https://github.com/IntelRealSense/librealsense/releases
-b. Follow these steps :https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md
+Download the required version form(I used 2.15) : https://github.com/IntelRealSense/librealsense/releases
+Follow these steps :https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md
 
 3. Update the firmware following the step from(https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)
  and downloading the firmware from(https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
