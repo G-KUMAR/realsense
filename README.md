@@ -1,7 +1,16 @@
+Few Extra Steps:
+1. To install the latest version of librealsense directly as debian package follow this: 
+https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
+
+2. To install librealsense2 from source:
+a. Download the required version form(I used 2.15) : https://github.com/IntelRealSense/librealsense/releases
+b. Follow these steps :https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md
+
+3. Update the firmware following the step from(https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)
+ and downloading the firmware from(https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
+
 Personal Changes:
 --NOTE: IF faced with "frame didnt arrive in 5 seconds realsense" or USB3 issues update the firmware.
- Update the firmware following the step from(https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)
- and downloading the firmware from(https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
 
 Changed the camera namespace to rsd_camera for resolving conflict in tarrot_mapping
 
