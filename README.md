@@ -2,20 +2,18 @@ Find useful links and Documentations at: https://github.com/IntelRealSense/libre
 cd
 
 Few Extra Steps:
-1. To install the latest version of librealsense directly as debian package follow this: 
-https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md
+1. To install the latest version of librealsense directly as debian package follow ![this link](https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md)  
+
 
 2. To install librealsense2 from source:
-Download the required version form(I used 2.14.1 can be cloned from ![Here](https://github.com/G-KUMAR/librealsense.git) For a non-latest release prefer downloading .tar.gz or else verify carefully if cloned) : https://github.com/IntelRealSense/librealsense/releases
-Follow these steps :https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md
+Download the required version form(I used 2.14.1 can be cloned from ![Here](https://github.com/G-KUMAR/librealsense.git) or for any other non-latest release visit ![librealsense](https://github.com/IntelRealSense/librealsense/releases) and follow the ![Development doc](https://github.com/IntelRealSense/librealsense/blob/development/doc/installation.md) steps.
 
-3. Update the firmware following the step from(https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)
- and downloading the firmware from(https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
+3. Update the firmware following the step given at ![D400-DFU-Guide](https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf) and downloading the firmware from ![D400 firmware](https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t)
 
 Personal Changes:
---NOTE: IF faced with "frame didnt arrive in 5 seconds realsense" or USB3 issues update the firmware.
+--NOTE: IF faced with "frame didnt arrive in 5 seconds realsense" or USB3 issues update the firmware .
 
-Changed the camera namespace to rsd_camera for resolving conflict in tarrot_mapping
+Changed the camera namespace to rsd_camera for resolving conflict with other cameras
 
 # ROS Wrapper for Intel&reg; RealSense&trade; Devices
 These are packages for using Intel RealSense cameras (D400 series and the SR300) with ROS.
