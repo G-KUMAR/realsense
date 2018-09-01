@@ -1,5 +1,4 @@
-Find useful links and Documentations at: https://github.com/IntelRealSense/librealsense/tree/development/doc
-cd
+Find useful links and Documentations at ![Development_doc](https://github.com/IntelRealSense/librealsense/tree/development/doc)
 
 Few Extra Steps:
 1. To install the latest version of librealsense directly as debian package follow ![this link](https://github.com/IntelRealSense/librealsense/blob/development/doc/distribution_linux.md)  
