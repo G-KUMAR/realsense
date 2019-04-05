@@ -9,6 +9,8 @@ Download the required version form(I used 2.14.1 can be cloned from [Here](https
 
 3. Update the firmware following the step given at [D400-DFU-Guide](https://www.intel.com/content/dam/support/us/en/documents/emerging-technologies/intel-realsense-technology/Linux-RealSense-D400-DFU-Guide.pdf)(take care for spaces and signs like "-" while copying the command from PDF) and downloading the firmware from [D400 firmware](https://downloadcenter.intel.com/download/28076/Latest-Firmware-for-Intel-RealSense-D400-Product-Family?v=t). 
 
+4. Install the realsense ROS Wrapper by cloning [this](https://github.com/G-KUMAR/realsense) repo.
+
 Personal Changes:
 --NOTE: IF faced with "frame didnt arrive in 5 seconds realsense" or USB3 issues update the firmware . Prefer firmware version 5.8.15 (get it from [Here](https://downloadcenter.intel.com/download/27567/Latest-Firmware-for-Intel-RealSense-D400-Product-Family) or try the latest available)
 
